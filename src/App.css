@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(204, 217, 231);
+}
+  
+  
+.wrapper{
+    width: 420px;
+    border-radius: 7px;
+    background: rgb(153, 197, 244);
+    padding: 25px 28px 45px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+  

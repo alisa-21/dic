@@ -1,0 +1,56 @@
+.wrapper{
+    width: 420px;
+    border-radius: 7px;
+    background: #fff;
+    padding: 25px 28px 45px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+  
+.wrapper ul{
+    height: 0;
+    opacity: 0;
+    padding-right: 1px;
+    overflow-y: hidden;
+}
+  
+.wrapper.active ul{
+    opacity: 1;
+    height: 303px;
+}
+  
+#add-word-btn:hover {
+    background: Rgba(255, 255, 255, 0.447);
+}
+    
+h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+  
+.tr{
+    position: relative;
+}
+  
+result-word {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.03em;
+    color: 0 #000000;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 40px 0px;
+}
+  
+table {
+    width: 300px;
+}
